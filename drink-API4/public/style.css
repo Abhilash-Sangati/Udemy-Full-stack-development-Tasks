@@ -1,0 +1,75 @@
+/* Reset default styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(120deg, #ffe3e3, #fff5f5);
+  color: #333;
+  text-align: center;
+  padding: 2rem;
+}
+
+/* Page heading */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #d6336c;
+}
+
+/* Cocktail title */
+h2 {
+  font-size: 2rem;
+  margin: 1rem 0;
+  color: #5c2e91;
+}
+
+/* Instructions section */
+h3 {
+  color: #555;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Cocktail image */
+img {
+  max-width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+  margin-bottom: 1rem;
+}
+
+/* Ingredients list */
+ul {
+  list-style: none;
+  padding: 0;
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+li {
+  padding: 0.4rem;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Get another button */
+a {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #ff6b6b;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+a:hover {
+  background-color: #d6336c;
+}
